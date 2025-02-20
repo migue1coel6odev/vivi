@@ -14,10 +14,10 @@ export function Button(props: ButtonProps) {
 
   return (
     <button
-      className={classNames(className, 'px-4 py-1.5 rounded-md cursor-pointer', {
-        [styles.button_primary]: variant === "primary",
-        [styles.button_secondary]: variant === "secondary",
-        [styles.button_tertiary]: variant === "tertiary",
+      className={classNames(className, 'px-4 py-1 rounded-md cursor-pointer border', {
+        [styles.primary]: variant === "primary",
+        [styles.secondary]: variant === "secondary",
+        [styles.tertiary]: variant === "tertiary",
         [styles.small]: size === "small",
         [styles.medium]: size === "medium",
         [styles.large]: size === "large",

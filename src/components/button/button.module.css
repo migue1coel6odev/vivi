@@ -1,27 +1,27 @@
 @import "../../theme/theme.css";
 
-.button_primary{
-    @apply bg-primary text-white;
+.primary{
+    @apply bg-primary border-primary text-white;
 }
 
-.button_secondary{
-    @apply border border-primary text-primary;
+.secondary{
+    @apply border-primary text-primary;
 }
 
-.button_tertiary{
-    @apply text-primary;
+.tertiary{
+    @apply border-transparent text-primary;
 }
 
-.button_primary:hover{
-    @apply bg-primary/80
+.primary:hover{
+    @apply bg-hover border-hover
 }
 
-.button_secondary:hover{
-    @apply bg-primary/20 border-primary/10
+.secondary:hover{
+    @apply bg-secondary border-secondary
 }
 
-.button_tertiary:hover{
-    @apply bg-primary/20
+.tertiary:hover{
+    @apply bg-secondary border-secondary
 }
 
 .small{

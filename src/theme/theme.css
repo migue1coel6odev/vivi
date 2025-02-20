@@ -3,6 +3,8 @@
 @theme {
     --default-font-family: "Roboto", serif;
     --color-primary: #122932;
+    --color-secondary: #e5e5e5;
+    --color-hover: #2D5362;
 }
 
 :root {
