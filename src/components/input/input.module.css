@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.input{
+    @apply rounded-lg border p-2;
+}
+
+.small {
+
+}
+
+.medium{
+
+}
+
+.large{
+    
+}
