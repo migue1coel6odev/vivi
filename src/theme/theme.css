@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --default-font-family: "Roboto", serif;
+}
+
+:root {
+    font-weight: 300;
+}
