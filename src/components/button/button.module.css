@@ -1,13 +1,37 @@
-@import "tailwindcss";
+@import "../../theme/theme.css";
 
 .button_primary{
-    @apply bg-blue-700/60 text-white;
+    @apply bg-primary text-white;
 }
 
 .button_secondary{
-    @apply bg-amber-400;
+    @apply border border-primary text-primary;
 }
 
 .button_tertiary{
-    @apply bg-amber-400;
+    @apply text-primary;
+}
+
+.button_primary:hover{
+    @apply bg-primary/80
+}
+
+.button_secondary:hover{
+    @apply bg-primary/20 border-primary/10
+}
+
+.button_tertiary:hover{
+    @apply bg-primary/20
+}
+
+.small{
+    @apply text-xs;
+}
+
+.medium{
+    @apply text-base;
+}
+
+.large{
+    @apply text-lg;
 }

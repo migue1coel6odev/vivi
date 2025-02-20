@@ -2,9 +2,10 @@
 
 @theme {
     --default-font-family: "Roboto", serif;
+    --color-primary: #122932;
 }
 
 :root {
-    font-weight: 300;
+    /* font-weight: 300; */
     line-height: 28px;
 }
