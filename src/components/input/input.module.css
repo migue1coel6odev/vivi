@@ -1,17 +1,18 @@
-@import "tailwindcss";
+@import "../../theme/theme.css";
 
 .input{
-    @apply rounded-lg border p-2 px-4 outline-0;
+    @apply rounded-lg border py-1 px-4 outline-0 border-primary text-primary;
 }
 
 .small {
-
+    @apply text-xs;
 }
 
 .medium{
-
+    @apply text-base;
+    
 }
 
 .large{
-    
+    @apply text-lg;
 }
