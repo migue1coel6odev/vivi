@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
-.button_contained{
+.button_primary{
+    @apply bg-blue-700/60 text-white;
+}
+
+.button_secondary{
+    @apply bg-amber-400;
+}
+
+.button_tertiary{
     @apply bg-amber-400;
 }

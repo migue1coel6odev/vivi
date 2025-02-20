@@ -14,11 +14,13 @@ const meta = {
   tags: ["autodocs"],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {
-    variant: { control: "select", options: ["text", "contained"] },
+    variant: { control: "select", options: ["primary", "secondary",  "tertiary"] },
+    size: { control: "select", options: ["small", "medium", "large"]},
   },
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   args: {
-    variant: "text",
+    variant: "tertiary",
+    size: "medium",
   },
 } satisfies Meta<typeof Button>;
 

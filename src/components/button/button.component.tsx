@@ -7,14 +7,17 @@ export type ButtonProps = DetailedHTMLProps<
   HTMLButtonElement
 > & {
   variant?: "primary" | "secondary" | "tertiary";
+  size?: "small" | "medium" | "large";
 };
 export function Button(props: ButtonProps) {
   const { children, className, variant = "tertiary", ...rest } = props;
 
   return (
     <button
-      className={classNames(className, "border", {
-        [styles.button_contained]: variant === "primary",
+      className={classNames(className, 'p-2 rounded-lg', {
+        [styles.button_primary]: variant === "primary",
+        [styles.button_secondary]: variant === "secondary",
+        [styles.button_tertiary]: variant === "tertiary",
       })}
       {...rest}
     >
