@@ -10,7 +10,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "dependencies": {},
+  "dependencies": { "lit": "^3.3.0" },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/blocks": "^8.6.12",

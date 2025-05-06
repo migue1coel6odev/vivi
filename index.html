@@ -1,16 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
-    <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
-  </head>
-  <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Lit + TS</title>
+  <link rel="stylesheet" href="./src/index.css" />
+  <script type="module" src="/src/components/button/button.component.ts"></script>
+  <script type="module" src="/src/components/typography/typography.ts"></script>
+</head>
+
+<body>
+  <vivi-button variant="cenas" test="kek" label="coisas">
+    Click here!
+  </vivi-button>
+  <vivi-button variant="cenas" test="kek">
+    Apply
+  </vivi-button>
+
+  <vivi-typography>
+    Test body
+  </vivi-typography>
+  <vivi-typography variant="h1">
+    Test h1
+  </vivi-typography>
+  <vivi-typography variant="h2">
+    Test h2
+  </vivi-typography>
+</body>
+
 </html>
